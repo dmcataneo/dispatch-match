@@ -4,7 +4,9 @@ An interactive map that pairs vehicles with requests so the total pickup distanc
 
 It runs in the browser. There is nothing to install: open `index.html`, or serve the folder with any static file server.
 
-## Try it
+[Open the live app](https://dmcataneo.github.io/dispatch-match/). No login needed.
+
+## Run locally
 
 ```bash
 # Option 1: open index.html in a browser
@@ -57,3 +59,7 @@ python/                 Earlier Streamlit version of the same idea, with its own
 ```
 
 All data is generated or placed by you.
+
+## Author
+
+[dmcataneo](https://github.com/dmcataneo)
