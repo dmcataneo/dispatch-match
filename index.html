@@ -88,8 +88,10 @@
   <h2>How it works</h2>
   <div class="cols">
     <div>
-      <p>Every vehicle-request pair has a cost: the straight-line distance. The <strong>Hungarian method</strong> finds the one-to-one pairing with the smallest total cost, and it does so in polynomial time instead of trying every combination.</p>
-      <p>Two simpler rules are shown for comparison. <strong>Closest pair first</strong> repeatedly takes the nearest free pair. <strong>Request order</strong> serves requests in the order they were added, each taking the nearest free vehicle. Both can be noticeably worse. Try the "Closest-first trap" scene.</p>
+      <p>Hey! I built this to play with a problem I dealt with in delivery ops: lots of orders, a fleet of drivers, and someone has to decide who picks up what.</p>
+      <p>"Closest first" sounds obvious. But does it give you the best result overall? Move the vehicles and requests around, change the balance of supply and demand, and compare the Hungarian algorithm with two simple matching rules.</p>
+      <p>It's a small experiment, not a real dispatch engine: fictional locations, straight-line distances, no traffic. The idea is to make the trade-offs easy to see.</p>
+      <p>Every vehicle-request pair has a cost: the straight-line distance. The <strong>Hungarian method</strong> finds the one-to-one pairing with the smallest total cost, and it does so in polynomial time instead of trying every combination. Two simpler rules are shown for comparison. <strong>Closest pair first</strong> repeatedly takes the nearest free pair. <strong>Request order</strong> serves requests in the order they were added, each taking the nearest free vehicle. Both can be noticeably worse. Try the "Closest-first trap" scene.</p>
     </div>
     <div>
       <p><strong>Limits.</strong> It minimises the total, so one pickup can still be long. The pairing is made once for the points as they are now: no time, traffic, moving vehicles or later requests. Distance is straight-line on a made-up 100 x 100 plane, not a real map.</p>
