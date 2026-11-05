@@ -1,6 +1,10 @@
 # Dispatch Match
 
-An interactive map that pairs vehicles with requests so the total pickup distance is as small as possible. Drag points around and watch the pairing change as you move them.
+Hey! I built this to play with a problem I dealt with in delivery ops: lots of orders, a fleet of drivers, and someone has to decide who picks up what.
+
+"Closest first" sounds obvious. But does it give you the best result overall? Move the vehicles and requests around, change the balance of supply and demand, and compare the Hungarian algorithm with two simple matching rules.
+
+It's a small experiment, not a real dispatch engine: fictional locations, straight-line distances, no traffic. The idea is to make the trade-offs easy to see.
 
 It runs in the browser. There is nothing to install: open `index.html`, or serve the folder with any static file server.
 
