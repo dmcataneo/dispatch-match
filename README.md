@@ -1,10 +1,14 @@
 # Dispatch Match
 
-Hey! I built this to play with a problem I dealt with in delivery ops: lots of orders, a fleet of drivers, and someone has to decide who picks up what.
+> A toy I built to play with dispatch. Not a product, not production code.
+>
+> **Type:** side project, for fun · **Stack:** plain HTML and JS, no dependencies · **Author:** an operations person, not a developer. I build these at night, next to my day job. Nothing very serious.
 
-"Closest first" sounds obvious. But does it give you the best result overall? Move the vehicles and requests around, change the balance of supply and demand, and compare the Hungarian algorithm with two simple matching rules.
+Lots of orders, a fleet of drivers, and someone has to decide who picks up what. I dealt with that in delivery and micromobility, and I wanted a toy where I could see it.
 
-It's a small experiment, not a real dispatch engine: fictional locations, straight-line distances, no traffic. The idea is to make the trade-offs easy to see.
+"Closest first" sounds obvious. Is it really the best overall? Move the vehicles and requests around, change the balance of supply and demand, and compare the Hungarian algorithm with two simple rules.
+
+It's a small experiment, not a dispatch engine. Fictional locations, straight-line distances, no traffic.
 
 It runs in the browser. There is nothing to install: open `index.html`, or serve the folder with any static file server.
 
