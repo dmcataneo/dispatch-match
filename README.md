@@ -2,7 +2,7 @@
 
 > A toy I built to play with dispatch. Not a product, not production code.
 >
-> **Type:** side project, for fun · **Stack:** plain HTML and JS, no dependencies · **Author:** an operations person, not a developer. I build these at night, next to my day job. Nothing very serious.
+> **Type:** side project, for fun · **Stack:** plain HTML and JS, no dependencies · **Author:** an operations person, not a developer. I build these in my free time, next to my day job. Nothing very serious.
 
 Lots of orders, a fleet of drivers, and someone has to decide who picks up what. I dealt with that in delivery and micromobility, and I wanted a toy where I could see it.
 
